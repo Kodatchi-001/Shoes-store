@@ -1,7 +1,7 @@
-var color_1 = document.getElementById('color-red')
-var color_2 = document.getElementById('color-yellow')
-var color_3 = document.getElementById('color-blue')
-var color_4 = document.getElementById('color-black')
+var color_1 = document.getElementById('color-1')
+var color_2 = document.getElementById('color-2')
+var color_3 = document.getElementById('color-3')
+var color_4 = document.getElementById('color-4')
 
 
 color_1.onclick = function () {
@@ -35,6 +35,7 @@ img_1.onclick = function () {
     document.querySelector("img").src = './assets/default-nike.png'
     document.querySelector("img").style.width = '60vw'
     document.querySelector("img").style.height = '55vh'
+    
 
     color_1.onclick = function () {
         document.querySelector("img").src = './assets/red-nike.png'
