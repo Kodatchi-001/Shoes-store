@@ -61,26 +61,26 @@ img_1.onclick = function () {
 }
 
 img_2.onclick = function () {
-    document.querySelector("img").src = './assets/white-tn.png'
+    document.querySelector("img").src = './assets/sebadri-1.png'
     document.querySelector("img").style.width = '60vw'
     document.querySelector("img").style.height = '55vh'
     color_1.onclick = function () {
-        document.querySelector("img").src = './assets/red-tn.png'
+        document.querySelector("img").src = './assets/sebadri-5.png'
         document.querySelector("img").style.width = '40vw'
         document.querySelector("img").style.height = '45vh'
     }
     color_2.onclick = function () {
-        document.querySelector("img").src = './assets/yellow-tn.png'
+        document.querySelector("img").src = './assets/sebadri-4.png'
         document.querySelector("img").style.width = '70vw'
         document.querySelector("img").style.height = '60vh'
     }
     color_3.onclick = function () {
-        document.querySelector("img").src = './assets/blue-tn.png'
+        document.querySelector("img").src = './assets/sebadri-2.png'
         document.querySelector("img").style.width = '70vw'
         document.querySelector("img").style.height = '60vh'
     }
     color_4.onclick = function () {
-        document.querySelector("img").src = './assets/black-tn.png'
+        document.querySelector("img").src = './assets/sebadri-3.png'
         document.querySelector("img").style.width = '65vw'
         document.querySelector("img").style.height = '55vh'
     }
