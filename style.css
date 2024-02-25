@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-transform: capitalize;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -129,6 +130,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3vh;
 }
 
 .img-color {
@@ -277,15 +279,19 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    animation: scolle-1 linear forwards;
-    animation-timeline: view();
-    animation-range: 0px 600px;
 }
-
+.content-globale-1{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .tittle-page-1 {
     width: 100%;
-    height: 5vh;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,8 +304,8 @@ span {
 }
 
 .content-page-1 {
-    width: 80%;
-    height: 60%;
+    width: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,7 +438,7 @@ span {
 
 .card-3-1 {
     width: 50%;
-    height: 100%;
+    height: 25vh;
     background-color: rgba(128, 128, 128, 0.361);
     border-radius: 10px;
     display: flex;
@@ -440,18 +446,21 @@ span {
     align-items: center;
     flex-wrap: wrap;
 }
-.card-3-1 h1{
+
+.card-3-1 h1 {
     width: 100%;
     text-align: center;
     margin-top: 1vh;
 }
-.card-3-1 img{
+
+.card-3-1 img {
     width: 12vw;
 }
-.card-3-1 h2{
+
+.card-3-1 h2 {
     width: 100%;
+    height: 20%;
     text-align: center;
-    height: 5vh;
     background-color: red;
     display: flex;
     justify-content: center;
@@ -459,4 +468,89 @@ span {
     border-radius: 0px 0px 20px 20px;
     color: white;
     font-size: 1.2vw;
+    margin-top: -2vh;
+}
+
+#page-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-globale-2{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tittle-page-2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-page-2 h1 {
+    font-size: 3vw;
+    color: white;
+    font-weight: 900;
+}
+
+.page-2-card {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-page-2 {
+    width: 20vw;
+    height: 50vh;
+    background-color: rgba(128, 128, 128, 0.158);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
+}
+.card-page-2:hover{
+    box-shadow: 0px 0px 20px red;
+}
+
+.content-card-page-2 {
+    width: 100%;
+    margin-left: 2vw;
+    color: white;
+    margin-top: 2vh;
+}
+
+.content-card-page-2 img {
+    width: 14vw;
+    rotate: -23deg;
+    margin-left: -0.5vw;
+    transition: 0.5s ease-in;
+}
+.card-page-2:hover{
+     img{
+        rotate: 0deg;
+        transform: scale(1.3);
+    }
+
+}
+.icon{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 10px 0px;
+    font-size: 1.5vw;
 }
