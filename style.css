@@ -533,7 +533,7 @@ span {
 .content-card-page-2 img {
     width: 14vw;
     rotate: -23deg;
-    margin-left: -0.5vw;
+    margin-left: 0;
     transition: 0.5s ease-in;
 }
 .card-page-2:hover{
@@ -553,4 +553,70 @@ span {
     align-items: center;
     border-radius: 20px 0px 10px 0px;
     font-size: 1.5vw;
+}
+#page-3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.content-1-page-3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-1{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.content-1 h3{
+    font-size: 1.8vw;
+    color: red;
+    width: 100%;
+}
+.content-1 h1{
+    width: 100%;
+    font-size: 3vw;
+}
+.content-1 span{
+    color: red;
+}
+.icon-2{
+    background-color: red;
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+.content-1 h2{
+    font-size: 1.3vw;
+}
+
+.content-2-page-3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.content-2-page-3 img{
+    width: 35vw;
+    rotate: -25deg;
+    filter: drop-shadow(0px 0px 80px rgba(255, 255, 255, 0.144));
+}
+#page-4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
