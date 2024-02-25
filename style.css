@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 14, 36);
+}
+
+header {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tittle-1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.tittle-1 h1 {
+    color: white;
+}
+
+span {
+    color: red;
+}
+
+.tittle-2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-2 ul {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.tittle-2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.content-home {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-home-card {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    animation: test-1 4s;
+}
+
+@keyframes test-1 {
+    from {
+        margin-left: -200vw;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
+
+.content-home-card h1 {
+    font-size: 2.5vw;
+    width: 100%;
+    margin-left: 3.5vw;
+}
+
+.content-home-card p {
+    width: 70%;
+    height: 5vh;
+}
+
+.content-home-botton {
+    width: 100%;
+    margin-left: 3.5vw;
+}
+
+.content-home-botton a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-home-botton h2 {
+    width: 40%;
+    height: 5vh;
+    background-color: red;
+    font-size: 1.1vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-color {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-color h2 {
+    width: 100%;
+    margin-left: 3.5vw;
+}
+
+.color {
+    width: 100%;
+    display: flex;
+    margin-left: 3.5vw;
+    gap: 20px;
+    margin-top: 1vh;
+}
+
+.color-content {
+    width: 2vw;
+    text-align: center;
+    border-radius: 50%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-1 {
+    background-color: red;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.475);
+}
+
+#color-2 {
+    background-color: yellow;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.475);
+}
+
+#color-3 {
+    background-color: blue;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.475);
+}
+
+#color-4 {
+    background-color: black;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.475);
+}
+
+
+.content-home-2 {
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-home-2 img {
+    rotate: -35deg;
+    width: 45vw;
+    height: 50vh;
+    margin-right: 5vw;
+    filter: drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.187));
+    animation: test-2 5s;
+    z-index: -1;
+    margin-top: -5vh;
+
+}
+
+@keyframes test-2 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.content-home-3 {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-3-card {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    animation: test-3 4s;
+}
+
+@keyframes test-3 {
+    from {
+        margin-right: -200vw;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+.card-1 {
+    width: 14.5vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.349), rgba(0, 0, 0, 0));
+    border-radius: 20px;
+
+}
+
+.card-1 img {
+    width: 100%;
+    height: 17vh;
+    margin-left: 1vw;
+}
+#test-2 img{
+    height: 20.5vh;
+}
+#test-3 img{
+    height: 21vh;
+}
+#test-4 img{
+    height: 20.5vh;
+}
+
