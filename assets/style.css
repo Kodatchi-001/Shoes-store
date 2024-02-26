@@ -9,6 +9,68 @@ body {
     background-color: rgb(25, 14, 36);
 }
 
+.theme {
+    background-color: white;
+
+    * {
+        transition: 1s ease-in;
+    }
+
+    .tittle-2 a {
+        color: rgb(0, 0, 0);
+    }
+
+    .tittle-1 h1 {
+        color: rgb(0, 0, 0);
+    }
+
+    .content-home-card h1,
+    p,
+    h2 {
+        color: black;
+    }
+
+    .card-1 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    }
+
+    .tittle-page-2 h1 {
+        color: black;
+    }
+
+    content-1 {
+        color: rgb(0, 0, 0);
+    }
+
+    .content-1 h1 {
+        width: 100%;
+        font-size: 3vw;
+        color: black;
+    }
+
+    .content-card-page-2 h3 {
+        color: black;
+    }
+
+    .content-footer {
+        border-bottom: 3px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+
+    .tittle-3 a {
+        color: rgb(0, 0, 0);
+    }
+
+    .footer-info a {
+        color: rgb(0, 0, 0);
+    }
+
+    #icone-mode {
+        color: rgb(0, 0, 0);
+    }
+
+}
+
 header {
     width: 90%;
     height: 10vh;
@@ -37,7 +99,7 @@ span {
 }
 
 .tittle-2 {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -61,6 +123,10 @@ span {
 
 .tittle-2 a:hover {
     color: red;
+}
+
+#icone-mode {
+    color: white;
 }
 
 #home {
@@ -727,6 +793,38 @@ footer {
 }
 
 @media (max-width: 500px) {
+    @keyframes test-1 {
+        from {
+            margin-left: -200vw;
+        }
+
+        to {
+            margin-left: 0;
+        }
+    }
+
+    @keyframes test-2 {
+        from {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes test-3 {
+        from {
+            margin-right: -200vw;
+        }
+
+        to {
+            margin-right: 0;
+        }
+    }
+
     header {
         width: 100%;
         height: 100%;
@@ -789,34 +887,47 @@ footer {
     .tittle-2 a:hover {
         color: red;
     }
-    #nav-2{
+
+    #nav-2 {
         transition: 1s ease-in;
         opacity: 0;
+        display: none;
     }
-    #nav-3{
+
+    #nav-3 {
         transition: 1.5s ease-in;
-          opacity: 0;
+        opacity: 0;
+        display: none;
     }
-    
-    #nav-4{
+
+    #nav-4 {
         transition: 2s ease-in;
-          opacity: 0;
+        opacity: 0;
+        display: none;
     }
-    
-    #nav-5{
+
+    #nav-5 {
         transition: 2.5s ease-in;
-          opacity: 0;
+        opacity: 0;
+        display: none;
     }
-    
-    #nav-6{
+
+    #nav-6 {
         transition: 3s ease-in;
-          opacity: 0;
+        opacity: 0;
+        display: none;
     }
-    #nav-7{
+
+    #nav-7 {
         transition: 3.5s ease-in;
-          opacity: 0;
+        opacity: 0;
+        display: none;
     }
-    
+
+    .mode-position {
+        width: 100%;
+        text-align: center;
+    }
 
     #home {
         width: 100%;
@@ -1452,6 +1563,7 @@ footer {
         align-items: center;
         margin-top: 5vh;
     }
+
     footer {
         width: 100%;
         height: 100%;
@@ -1460,7 +1572,7 @@ footer {
         align-items: center;
         margin-top: 4vh;
     }
-    
+
     .content-footer {
         width: 70%;
         height: 80%;
@@ -1473,7 +1585,7 @@ footer {
         flex-wrap: wrap;
         border-top: 2px solid white;
     }
-    
+
     .footer-tittle {
         width: 100%;
         height: 100%;
@@ -1483,15 +1595,16 @@ footer {
         margin-bottom: 1vh;
         margin-top: 1vh;
     }
-    .footer-tittle h1{
+
+    .footer-tittle h1 {
         font-size: 10vw;
     }
-    
+
     .footer-link {
         width: 100%;
         height: 100%;
     }
-    
+
     .tittle-3 {
         width: 100%;
         height: 100%;
@@ -1500,7 +1613,7 @@ footer {
         align-items: center;
         display: none;
     }
-    
+
     .tittle-3 ul {
         width: 100%;
         display: flex;
@@ -1509,19 +1622,19 @@ footer {
         justify-content: space-between;
         list-style: none;
     }
-    
+
     .tittle-3 a {
         color: white;
         text-decoration: none;
         transition: 0.5s ease-in;
         font-size: 1.2vw;
     }
-    
+
     .tittle-2 a:hover {
         color: red;
     }
-    
-    
+
+
     .footer-info {
         width: 100%;
         height: 100%;
@@ -1530,7 +1643,7 @@ footer {
         align-items: center;
         gap: 50px;
     }
-    
+
     .footer-info a {
         font-size: 7vw;
         color: white;
