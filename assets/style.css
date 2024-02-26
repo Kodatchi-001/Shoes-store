@@ -741,10 +741,11 @@ footer {
 
     .tittle-1 {
         width: 100%;
-        height: 70%;
+        height: 8vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 1000;
     }
 
     .tittle-1 h1 {
@@ -757,31 +758,65 @@ footer {
 
     .tittle-2 {
         width: 100%;
-        height: 60%;
+        height: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        opacity: 0;
+        transition: 0.5s ease-in;
     }
 
     .tittle-2 ul {
-        width: 90%;
+        width: 70%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         justify-content: space-between;
         list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
     }
 
     .tittle-2 a {
         color: white;
         text-decoration: none;
         transition: 0.5s ease-in;
+        font-size: 5vw;
     }
 
     .tittle-2 a:hover {
         color: red;
     }
+    #nav-2{
+        transition: 1s ease-in;
+        opacity: 0;
+    }
+    #nav-3{
+        transition: 1.5s ease-in;
+          opacity: 0;
+    }
+    
+    #nav-4{
+        transition: 2s ease-in;
+          opacity: 0;
+    }
+    
+    #nav-5{
+        transition: 2.5s ease-in;
+          opacity: 0;
+    }
+    
+    #nav-6{
+        transition: 3s ease-in;
+          opacity: 0;
+    }
+    #nav-7{
+        transition: 3.5s ease-in;
+          opacity: 0;
+    }
+    
 
     #home {
         width: 100%;
@@ -789,7 +824,7 @@ footer {
         display: flex;
         overflow: hidden;
         flex-wrap: wrap;
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
 
     .content-home {
