@@ -68,6 +68,9 @@ body {
     #icone-mode {
         color: rgb(0, 0, 0);
     }
+    .tittle-page-1 h1 {
+        color: black;
+    }
 
 }
 
@@ -324,12 +327,12 @@ span {
 }
 
 #test-1 img {
-    width: 90%;
+    width: 80%;
     height: 18vh;
 }
 
 #test-2 img {
-    width: 90%;
+    width: 80%;
     height: 22vh;
 }
 

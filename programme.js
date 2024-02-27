@@ -5,23 +5,15 @@ var color_4 = document.getElementById('color-4')
 
 color_1.onclick = function () {
     document.getElementById("img-home").src = './assets/red-nike.png'
-    document.getElementById("img-home").style.width = '60vw'
-    document.getElementById("img-home").style.height = '55vh'
 }
 color_2.onclick = function () {
     document.getElementById("img-home").src = './assets/yellow-nike.png'
-    document.getElementById("img-home").style.width = '60vw'
-    document.getElementById("img-home").style.height = '55vh'
 }
 color_3.onclick = function () {
     document.getElementById("img-home").src = './assets/blue-nike.png'
-    document.getElementById("img-home").style.width = '60vw'
-    document.getElementById("img-home").style.height = '55vh'
 }
 color_4.onclick = function () {
     document.getElementById("img-home").src = './assets/black-nike.png'
-    document.getElementById("img-home").style.width = '60vw'
-    document.getElementById("img-home").style.height = '55vh'
 }
 
 var img_1 = document.getElementById("test-1")
