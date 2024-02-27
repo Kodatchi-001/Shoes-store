@@ -266,7 +266,6 @@ section{
         margin-right: auto;
         flex-wrap: wrap;
     }
-
     .tittle-1 {
         width: 100%;
         height: 10vh;
@@ -278,6 +277,7 @@ section{
 
     .tittle-1 h1 {
         color: white;
+        font-size: 10vw;
     }
 
     span {
@@ -291,6 +291,7 @@ section{
         justify-content: center;
         align-items: center;
         transition: 0.5s ease-in;
+        display: none;
     }
 
     .tittle-2 ul {
@@ -322,7 +323,7 @@ section{
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         overflow: hidden;
     }
     .store{
@@ -378,6 +379,7 @@ section{
         margin-right: auto;
         animation: 3s test;
         flex-wrap: wrap;
+        margin-top: -5vh;
     }
     @keyframes test{
         from{
