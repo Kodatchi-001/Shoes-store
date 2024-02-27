@@ -130,3 +130,10 @@ modee.onclick = function (){
     document.body.classList.toggle('theme')
     document.body.style.transition = '2s'
 }
+
+var modee_2 = document.getElementById("icone-mode-2")
+
+modee_2.onclick = function (){
+    document.body.classList.toggle('theme')
+    document.body.style.transition = '2s'
+}
