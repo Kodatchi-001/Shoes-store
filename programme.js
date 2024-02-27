@@ -97,23 +97,33 @@ var test_3 = document.getElementById('nav-3')
 var test_4 = document.getElementById('nav-4')
 var test_5 = document.getElementById('nav-5')
 var test_6 = document.getElementById('nav-6')
+var test_7 = document.getElementById('nav-7')
 
 test_1.onclick = function name(params) {
-    document.querySelector(".tittle-2").style.height = '8vh'
-    document.querySelector(".tittle-2").style.opacity = '1'
-    document.getElementById("nav-2").style.opacity = '1'
-    document.getElementById("nav-2").style.display = 'block'
-    document.getElementById("nav-3").style.opacity = '1'
-    document.getElementById("nav-3").style.display = 'block'
-    document.getElementById("nav-4").style.opacity = '1'
-    document.getElementById("nav-4").style.display = 'block'
-    document.getElementById("nav-5").style.opacity = '1'
-    document.getElementById("nav-5").style.display = 'block'
-    document.getElementById("nav-6").style.opacity = '1'
-    document.getElementById("nav-6").style.display = 'block'
-    document.getElementById("nav-7").style.opacity = '1'
-    document.getElementById("nav-7").style.display = 'block'
+    document.querySelector(".tittle-2").style.marginLeft = '0'
 }
+
+test_2.onclick = function () {
+    document.querySelector(".tittle-2").style.marginLeft = '-50vw'
+}
+test_3.onclick = function () {
+    document.querySelector(".tittle-2").style.marginLeft = '-50vw'
+}
+test_4.onclick = function () {
+    document.querySelector(".tittle-2").style.marginLeft = '-50vw'
+}
+test_5.onclick = function () {
+    document.querySelector(".tittle-2").style.marginLeft = '-50vw'
+}
+test_6.onclick = function () {
+    document.querySelector(".tittle-2").style.marginLeft = '-50vw'
+}
+test_7.onclick = function () {
+    document.querySelector(".tittle-2").style.marginLeft = '-50vw'
+}
+
+
+
 var modee = document.getElementById("icone-mode")
 
 modee.onclick = function (){
