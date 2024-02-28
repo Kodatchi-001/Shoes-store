@@ -94,7 +94,7 @@ img_4.onclick = function () {
 var test_1 = document.getElementById('ahmed')
 var test_2 = document.getElementById('nav-7')
 
-test_1.onclick = function name(params) {
+test_1.onclick = function () {
     document.querySelector(".tittle-2").style.marginLeft = '0'
 }
 
@@ -106,14 +106,23 @@ test_2.onclick = function () {
 
 var modee = document.getElementById("icone-mode")
 
-modee.onclick = function (){
+modee.onclick = function () {
     document.body.classList.toggle('theme')
     document.body.style.transition = '2s'
 }
 
 var modee_2 = document.getElementById("icone-mode-2")
 
-modee_2.onclick = function (){
+modee_2.onclick = function () {
     document.body.classList.toggle('theme')
     document.body.style.transition = '2s'
 }
+/*
+var media = window.matchMedia('(max-width : 500px)')
+
+if (media.matches) {
+    haja.onclick = function () {
+        document.querySelector(".tittle-2").style.marginLeft = '0'
+    }
+}
+*/

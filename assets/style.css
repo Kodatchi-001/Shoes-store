@@ -897,7 +897,7 @@ i {
     }
 
     .tittle-2 {
-        width: 50%;
+        width: 40%;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -914,7 +914,7 @@ i {
     }
 
     .tittle-2 ul {
-        width: 60%;
+        width: 80%;
         height: 80%;
         display: flex;
         justify-content: center;
