@@ -102,8 +102,6 @@ test_2.onclick = function () {
     document.querySelector(".tittle-2").style.marginLeft = '-50vw'
 }
 
-
-
 var modee = document.getElementById("icone-mode")
 
 modee.onclick = function () {
@@ -117,12 +115,3 @@ modee_2.onclick = function () {
     document.body.classList.toggle('theme')
     document.body.style.transition = '2s'
 }
-/*
-var media = window.matchMedia('(max-width : 500px)')
-
-if (media.matches) {
-    haja.onclick = function () {
-        document.querySelector(".tittle-2").style.marginLeft = '0'
-    }
-}
-*/

@@ -1186,7 +1186,7 @@ i {
     }
 
     .content-page-1 {
-        width: 70%;
+        width: 90%;
         height: 80%;
         display: flex;
         justify-content: center;
@@ -1423,7 +1423,7 @@ i {
     }
 
     .card-page-2 {
-        width: 80%;
+        width: 100%;
         height: 100%;
         background-color: rgba(128, 128, 128, 0.158);
         display: flex;
@@ -1441,9 +1441,8 @@ i {
     }
 
     .content-card-page-2 img {
-        width: 45vw;
+        width: 65vw;
         rotate: -23deg;
-        margin-left: 5vw;
         transition: 0.5s ease-in;
     }
 
