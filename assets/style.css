@@ -1121,7 +1121,7 @@ i {
 
 
     .card-1 {
-        width: 50vw;
+        width: 45vw;
         height: 15vh;
         display: flex;
         justify-content: center;
@@ -1388,7 +1388,7 @@ i {
     }
 
     .content-globale-2 {
-        width: 80%;
+        width: 90%;
         height: 80%;
         display: flex;
         justify-content: center;
